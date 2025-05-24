@@ -23,15 +23,15 @@ export const AlertUserName = React.memo(() => {
   return (
     <AlertLauncher
       show={show}
-      title="Подсказка"
+      title="سرنخ"
       useNativeDriver={true}
       closeOnTouchOutside={false}
       closeOnHardwareBackPress={false}
-      message="Необходимо установить Имя_Фамилию в настройках"
+      message=شما اول باید نام و نام خانوادگی خود را در راکستار وارد کنید"
       showConfirmButton={true}
-      confirmText="Настройки"
+      confirmText="تنطیمات"
       showCancelButton={true}
-      cancelText="Закрыть"
+      cancelText="بستن"
       onCancelPressed={onConfirmPressed}
       onConfirmPressed={onPressCancel}
     />
