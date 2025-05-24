@@ -12,7 +12,7 @@ import { styles } from './SocialStyle';
 
 export const socials = [
   {
-    title: 'Сайт',
+    title: 'Telegram',
     link: LINK_SITE,
     icon: logoLinkIcon,
   },
