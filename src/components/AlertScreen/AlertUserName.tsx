@@ -23,7 +23,7 @@ export const AlertUserName = React.memo(() => {
   return (
     <AlertLauncher
       show={show}
-      title="سرنخ"
+      title="!مشکل!"
       useNativeDriver={true}
       closeOnTouchOutside={false}
       closeOnHardwareBackPress={false}
