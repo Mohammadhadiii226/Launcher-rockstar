@@ -21,15 +21,15 @@ export const AlertUpdate = React.memo(() => {
   return (
     <AlertLauncher
       show={show}
-      title="Внимание"
+      title="توجه"
       useNativeDriver={true}
       closeOnTouchOutside={false}
       closeOnHardwareBackPress={false}
-      message="Доступно новая версия лаунчера. Для комфортной игры на нашем проекте, советуем обновить приложения"
+      message="نسخه جدید کلاینت ویژه راکستار منتشر شد.برای تجربه متفاوت همین الان نسخه جدید رو دانلود کن!"
       showConfirmButton={true}
-      confirmText="Обновить"
+      confirmText="تازه کردن"
       showCancelButton={true}
-      cancelText="Позже"
+      cancelText="بستن"
       onCancelPressed={onConfirmPressed}
       onConfirmPressed={onPressCancel}
     />
