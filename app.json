@@ -1,33 +1,4 @@
 {
-  "expo": {
-    "name": "TouchMobile",
-    "slug": "touchmobile",
-    "version": "0.0.16",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.touchmobile.app"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
-  }
+  "name": "RockStar",
+  "displayName": "RockStar"
 }
