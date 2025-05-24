@@ -26,13 +26,13 @@ export const AlertSpace = React.memo(() => {
   return (
     <AlertLauncher
       show={show}
-      title="Недостаточно места"
+      title="فضای ذخیره سازی شما کافی نیست"
       useNativeDriver={true}
       closeOnTouchOutside={false}
       closeOnHardwareBackPress={false}
-      message={`Для установки ресурсов игры, требуется ${needSpace} доступно ${currentSpace}`}
+      message={`برای نصب کلاینت راکستار شما ${needSpace} فضا نیاز دارید ${currentSpace}`}
       showCancelButton={true}
-      cancelText="Закрыть"
+      cancelText="بستن"
       onCancelPressed={onPressCancel}
     />
   );
