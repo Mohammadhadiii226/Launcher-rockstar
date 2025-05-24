@@ -25,7 +25,7 @@ export const AlertSound = React.memo(() => {
   return (
     <AlertLauncher
       show={show}
-      title:"!مشکل!"
+      title="!مشکل!"
       useNativeDriver={true}
       closeOnTouchOutside={false}
       closeOnHardwareBackPress={false}
