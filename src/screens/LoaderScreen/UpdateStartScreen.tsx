@@ -28,11 +28,11 @@ export const UpdateStartScreen = React.memo(
 
     return (
       <LoaderContainer>
-        <Text style={styles.title}>Доступно обновление!</Text>
+        <Text style={styles.title}> !بروزرسانی موجود است!</Text>
         <Text style={styles.alert}>
-          Нажмите
-          <Text style={styles.accent}> обновить</Text>, чтобы подтвердить
-          {'\n'} загрузку файлов.
+          کلیک
+          <Text style={styles.accent}> بروزرسانی</Text>, تایید کردن
+          {'\n'} اپلود فایل
         </Text>
         <View style={styles.buttons}>
           <ButtonLauncher
