@@ -69,7 +69,7 @@ export const UpdateScreen = React.memo(() => {
           />
 
           <Text style={styles.progressSubtitle}>
-            بروزرسانی فایل های بازی[{download.numberOfDownloads || 0} از{' '}
+            بروزرسانی فایل های بازی [{download.numberOfDownloads || 0} از{' '}
             {compare.rejectCount}]
           </Text>
           <Text style={styles.progressPercent}>
