@@ -16,12 +16,12 @@ export const LauncherUpdateScreen = React.memo(() => {
   return (
     <LoaderContainer>
       <Text style={[styles.title, styles.titleUppercase]}>
-        Обновление лаунчера
+        بروزرسانی لانچر راکستار
       </Text>
       <Text style={styles.alert}>
-        Нажмите
-        <Text style={styles.accent}> обновить</Text>, чтобы подтвердить
-        {'\n'} обновление лаунчера.
+        کلیک
+        <Text style={styles.accent}> بروزرسانی</Text>, تایید کردن
+        {'\n'} بروزرسانی لانچر راکستار.
       </Text>
       <View style={styles.buttons}>
         <ButtonLauncher
