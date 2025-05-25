@@ -39,7 +39,7 @@ export const DownloadStartScreen = React.memo(
             background={'#5476db'}
             IconLeft={DownloadSvg}
             onPress={onPressDownload}>
-            Скачать игру
+            دانلود بازی
           </ButtonLauncher>
         </View>
       </LoaderContainer>
