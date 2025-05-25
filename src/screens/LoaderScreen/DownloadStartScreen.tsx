@@ -28,7 +28,7 @@ export const DownloadStartScreen = React.memo(
 
     return (
       <LoaderContainer>
-        <Text style={styles.titleSub}>سلام👋</Text>
+        <Text style={styles.titleSub}> سلام👋</Text>
         <Text style={styles.subtitle}>
           خوشحالم که شمارا در{'\n'}
           راکستار میبینم!
