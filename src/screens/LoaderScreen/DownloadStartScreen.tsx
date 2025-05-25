@@ -30,8 +30,8 @@ export const DownloadStartScreen = React.memo(
       <LoaderContainer>
         <Text style={styles.titleSub}>سلام👋</Text>
         <Text style={styles.subtitle}>
-          Рады видеть тебя на{'\n'}
-          нашем проекте!
+          خوشحالم که شمارا در{'\n'}
+          راکستار میبینم!
         </Text>
         <View style={styles.buttons}>
           <ButtonLauncher
