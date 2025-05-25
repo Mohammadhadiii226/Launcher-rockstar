@@ -45,7 +45,7 @@ export const UpdateScreen = React.memo(() => {
       <LoaderContainer>
         <KeepAwake />
         <Text style={[styles.title, styles.titleUppercase]}>
-          Обновление игры
+          بروزرسانی بازی
         </Text>
         <View>
           <Text style={styles.progressTitle}>
@@ -69,7 +69,7 @@ export const UpdateScreen = React.memo(() => {
           />
 
           <Text style={styles.progressSubtitle}>
-            Обновление файлов игры [{download.numberOfDownloads || 0} из{' '}
+            بروزرسانی فایل های بازی[{download.numberOfDownloads || 0} از{' '}
             {compare.rejectCount}]
           </Text>
           <Text style={styles.progressPercent}>
