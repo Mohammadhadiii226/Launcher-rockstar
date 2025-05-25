@@ -99,7 +99,7 @@ const LauncherDownload = (props: { onPressUpdateHandler: () => void }) => {
 const LauncherDownloadError = (props: { onPressUpdateHandler: () => void }) => {
   return (
     <>
-      <Text style={styles.alert}>خطایی در بارگیری رخ داد</Text>
+      <Text style={styles.alert}> خطایی در بارگیری رخ داد</Text>
       <View style={styles.buttons}>
         <ButtonLauncher
           background={'#5476db'}
