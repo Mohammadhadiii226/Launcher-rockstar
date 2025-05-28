@@ -25,14 +25,14 @@ export const ModeScreen = React.memo(({ navigation }: InitiationScreenType) => {
         <ModeItem
           id={0}
           onPress={onPress}
-          text="Стандартная карта"
+          text="default"
           image={Images.Default}
           color={['#a4956e99', '#f5422a60']}
         />
         <ModeItem
           id={1}
           onPress={onPress}
-          text="Зимняя карта"
+          text="rockstar iranian version"
           image={Images.Snow}
           color={['#88effc99', '#6e2af560']}
         />
